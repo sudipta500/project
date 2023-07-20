@@ -989,7 +989,10 @@ progress {
           flex: 0 0 auto;
   width: 66.66666667%;
 }
-
+.res{
+    font-weight:bold;
+    font-size: 20px;
+}
 .col-9 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -1554,6 +1557,10 @@ progress {
             flex: 1 0 0%;
   }
 
+  .res{
+    font-weight:bold;
+    font-size: 35px;
+}
   .row-cols-sm-auto > * {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;

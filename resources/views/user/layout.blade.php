@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/css/swiper-bundle.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css')}}">
-  
+
     <!-- jQuery-->
     <script src="{{ asset('assets/vendors/js/jquery.min.js')}}"></script>
 </head>
@@ -38,7 +38,7 @@
                 </li>
                 <li class="nav-item navbar-dropdown " style="cursor: pointer"><p class="nav-link" href="contact-01.html"><span>Contact</span></p>
                 </li>
-            </ul><!-- Button--><a class="btn d-none d-sm-inline-flex btn btn-sm btn-accent-1 ms-auto ms-lg-60 me-30 me-lg-0 order-2 order-lg-3" href="contact-01.html" target="_self">Login</a>
+            </ul><!-- Button--><a class="btn d-none d-sm-inline-flex btn btn-sm btn-accent-1 ms-auto ms-lg-60 me-30 me-lg-0 order-2 order-lg-3" href="{{route('login')}}" target="_self">Login</a>
         </div>
     </nav><!-- Navbar mobile-->
     <div class="navbar navbar-mobile navbar-mobile-style-1 bg-white mfp-hide" id="navbar-mobile-style-1">
